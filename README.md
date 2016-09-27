@@ -1,4 +1,4 @@
-# styleguide
+# マネーフォワード スタイルガイド
 
 ## コーディング規約
 - [Ruby](https://github.com/moneyforward/ruby-style-guide)
