@@ -9,4 +9,4 @@
 - Slim
 
 ## 開発ガイドライン
-- RailsベースのJavaScript開発ガイドライン
+- [RailsベースのJavaScript開発ガイドライン](javascript-on-rails.md)
