@@ -71,6 +71,14 @@ if MFApp.controller == 'users' && MFApp.action == 'index'
     $('.js-foo').on 'click', ->
 ```
 
+`turbolinks` を On にしている場合は以下です。
+
+```coffee
+$ ->
+  if MFApp.controller == 'users' && MFApp.action == 'index'
+    # do stuff
+```
+
 置きましたか？　お疲れ様です。
 
 さて、ブラウザから動かしてみると、今設置したファイルは実行されているでしょうか？  
@@ -82,7 +90,8 @@ if MFApp.controller == 'users' && MFApp.action == 'index'
 次の項目を参照願います。
 
 --
-:memo: `MFApp` グローバル変数については、後に FAQ セクションで解説します。現在はその変数が定義されているのを前提として読み進めて下さい。
+- :memo: `MFApp` グローバル変数については、後に FAQ セクションで解説します。現在はその変数が定義されているのを前提として読み進めて下さい。
+- :memo: 以降の本ガイドラインの文章では、`turbolinks` は Off である前提で記述します。
 
 ### 2. エントリポイントの読み込み
 以下の手順で、先程追加したファイルを読み込む設定を行います。
