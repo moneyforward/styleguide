@@ -1,7 +1,7 @@
 # RailsベースのJavaScript開発ガイドライン
 
 ## 索引
-<!-- 以下は https://github.com/hail2u/node-gfmtoc 記法 -->
+<!-- 以下は https://github.com/hail2u/node-gfmtoc 用の記法 -->
 <!-- #toc -->
 
 * [索引](#%E7%B4%A2%E5%BC%95)
@@ -30,6 +30,7 @@
   * [class @FooClass と書くコードをよく見るのですが](#class-fooclass-%E3%81%A8%E6%9B%B8%E3%81%8F%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E3%82%88%E3%81%8F%E8%A6%8B%E3%82%8B%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8C)
   * [DOM要素の有無で条件分岐をしないのは何故ですか？](#dom%E8%A6%81%E7%B4%A0%E3%81%AE%E6%9C%89%E7%84%A1%E3%81%A7%E6%9D%A1%E4%BB%B6%E5%88%86%E5%B2%90%E3%82%92%E3%81%97%E3%81%AA%E3%81%84%E3%81%AE%E3%81%AF%E4%BD%95%E6%95%85%E3%81%A7%E3%81%99%E3%81%8B)
   * [何故テンプレートではなくアクションと1対1なのですか？](#%E4%BD%95%E6%95%85%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%A81%E5%AF%BE1%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8B)
+* [License](#license)
 
 <!-- /toc -->
 
@@ -500,3 +501,7 @@ Rails デフォルト設定の CoffeeScript は、ファイル単位で閉じた
 
 ### 何故テンプレートではなくアクションと1対1なのですか？
 後で書く
+
+
+## License
+[CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/)
