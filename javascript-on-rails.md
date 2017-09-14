@@ -430,6 +430,23 @@ if MFApp.controller == 'users' && MFApp.action == 'index'
     # do stuff
 ```
 
+### new/create と edit/update の組み合わせ
+1 アクションに対する 1 エントリポイントルールの例外として、 `new` アクション用の `new.js` を `create` アクションでも使うこと、また `edit` アクション用の `edit.js` を `update` アクションでも使うこと、これらは許容します。
+
+例えば、以下のような条件分岐は許可されます。
+
+`users/new.js`:
+```coffee
+if MFApp.controller == 'users' && (MFApp.action == 'new' || MFApp.action == 'create')
+```
+
+`users/edit.js`:
+```coffee
+if MFApp.controller == 'users' && (MFApp.action == 'edit' || MFApp.action == 'update')
+```
+
+理由は、Rails の `resources` メソッドを使ったルーティング設計を行う場合に、それらが同様の画面を意味することが良くあるためです。
+
 ### javascript_include_tag を使ってはいけませんか？
 限りなく禁止に近い非推奨です。可能な限り使わないで下さい。
 
